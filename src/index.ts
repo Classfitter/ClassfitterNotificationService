@@ -1,6 +1,5 @@
 let firebase = require("firebase");
 let assert = require("assert");
-var settings = require('../serviceAccountCredentials.json');
 var FCM = require('fcm-node');
 
 let lockerRoomName = "locker-room"
