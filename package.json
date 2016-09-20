@@ -11,6 +11,9 @@
     "start": "node_modules/typescript/bin/tsc; node lib/index.js",
     "test": "node_modules/typescript/bin/tsc; node_modules/mocha/bin/mocha lib/tests/index.js"
   },
+  "engines": {
+    "node": "6.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Classfitter/ClassfitterNotificationService.git"
