@@ -26,6 +26,7 @@
   "homepage": "https://github.com/Classfitter/ClassfitterNotificationService#readme",
   "dependencies": {
     "assert": "^1.4.1",
+    "fcm-node": "^1.0.14",
     "firebase": "^3.4.0",
     "inversify": "^2.0.0-rc.11",
     "node-gcm": "^0.14.4",
