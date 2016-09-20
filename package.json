@@ -1,0 +1,38 @@
+{
+  "name": "classfitter-notification-service",
+  "version": "1.0.0",
+  "description": "Notifciation services for classfitter",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "run": "node_modules/typescript/bin/tsc; node lib/index.js",
+    "lint": "tslint 'src/**/*.ts'",
+    "install": "node_modules/typings/dist/bin.js install",
+    "build": "node_modules/typescript/bin/tsc;",
+    "test": "node_modules/typescript/bin/tsc; node_modules/mocha/bin/mocha lib/tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Classfitter/ClassfitterNotificationService.git"
+  },
+  "author": "James Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Classfitter/ClassfitterNotificationService/issues"
+  },
+  "homepage": "https://github.com/Classfitter/ClassfitterNotificationService#readme",
+  "dependencies": {
+    "inversify": "^2.0.0-rc.11",
+    "node-gcm": "^0.14.4",
+    "reflect-metadata": "^0.1.8",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2",
+    "assert": "^1.4.1"
+  },
+  "devDependencies": {
+    "inversify-dts": "^2.1.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "tslint": "^3.15.1"
+  }
+}
