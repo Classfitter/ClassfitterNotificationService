@@ -1,14 +1,14 @@
 {
   "name": "classfitter-notification-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Notifciation services for classfitter",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "scripts": {
-    "run": "node_modules/typescript/bin/tsc; node lib/index.js",
     "lint": "tslint 'src/**/*.ts'",
     "install": "node_modules/typings/dist/bin.js install",
     "build": "node_modules/typescript/bin/tsc;",
+    "start": "node_modules/typescript/bin/tsc; node lib/index.js",
     "test": "node_modules/typescript/bin/tsc; node_modules/mocha/bin/mocha lib/tests/index.js"
   },
   "repository": {
