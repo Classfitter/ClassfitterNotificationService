@@ -25,12 +25,13 @@
   },
   "homepage": "https://github.com/Classfitter/ClassfitterNotificationService#readme",
   "dependencies": {
+    "assert": "^1.4.1",
+    "firebase": "^3.4.0",
     "inversify": "^2.0.0-rc.11",
     "node-gcm": "^0.14.4",
     "reflect-metadata": "^0.1.8",
     "typescript": "^1.8.10",
-    "typings": "^1.3.2",
-    "assert": "^1.4.1"
+    "typings": "^1.3.2"
   },
   "devDependencies": {
     "inversify-dts": "^2.1.0",
